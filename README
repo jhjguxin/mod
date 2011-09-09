@@ -1,0 +1,107 @@
+                       nodes
+  本站依据互联网上某一实物网站本站根据实物网站采用django语言重新编译生成，仅供广大django爱好者研究使用，切勿用于商业用途。
+  本次开发，耗时四个工作日，由于初学因此，本模板在细节有很大的欠缺。
+  再开发过程中遇到了很多困难，也解决了不少问题。巩固了这段时间所学，也明确了以后的学习方向。
+                           功能简介
+  本站采用了django,sqlite3架构，实现了（独立后台功能，后台授权访问，站点控制，站点重定向，实现了大部分数据可以直接在后台控制更新）下面给出网站结构和db表单结构示意：
+Navigation bar导航条
+index 公司简介 企业文化 管理理念 门店展示 后勤服务 在线联系 加盟 联系我们
+固定模板
+logo Navigation bar
+联系方式
+公司动态
+招商加盟
+友情链接
+             版权
+
+index
+logo Navigation bar
+联系方式   公司简介  图片框
+公司动态   推荐商品（门店#考虑删除，商品）
+招商加盟   门店展示
+友情链接
+             版权
+
+公司简介
+logo Navigation bar
+联系方式 公司简介
+公司动态 图片，文字
+招商加盟
+友情链接
+             版权
+
+企业文化
+logo Navigation bar
+联系方式 企业文化
+公司动态 图片\文字
+招商加盟
+友情链接
+             版权
+
+管理理念
+logo Navigation bar
+联系方式 管理理念
+公司动态 图片\文字
+招商加盟
+友情链接
+             版权
+
+门店展示
+logo Navigation bar
+联系方式 门店展示（门店列表）
+公司动态 图片\文字
+招商加盟
+友情链接
+             版权
+
+后勤服务（article list）
+logo Navigation bar
+article分类 商品展示（article列表）
+article搜索 图片\文字
+联系方式 
+
+             版权
+
+在线联系
+logo Navigation bar
+联系方式 留言板 (加上查看留言)
+公司动态 主题* 内容* 公司名称* 公司地址 邮编 联系人* 联系电话* 手机 联系传真 E-mail
+招商加盟
+友情链接
+             版权
+
+招商加盟
+logo Navigation bar
+联系方式 招商加盟
+公司动态 文字
+招商加盟
+友情链接
+             版权
+
+联系我们
+logo Navigation bar
+联系方式 联系我们
+公司动态 文字
+招商加盟
+友情链接
+             版权
+
+三个table 
+商品article 门店shop 新闻new 留言message
+
+商品article 编号num 名称name 图片img 备注node hoter 热度hoter
+
+门店shop 名称name 图片img 备注node 热度hoter
+
+新闻new 名称name 发布者writer 时间time 内容content 热度hoter
+
+留言message 主题*sub 内容*content 公司名称*name 公司地址address 邮编zip 联系人*contact 联系电话*call 手机phone 联系传真fax E-mail e-mail
+
+          contact me:
+                 qq:864248765
+             e-mail:864248765@qq.com
+
+      欢迎广大志同道合之士，与我一起交流学习！
+  谢谢！
+                                                         05:35 PM Sunday, March 27 2011
+
