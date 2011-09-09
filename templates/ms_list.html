@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block title %}Message_list{% endblock %}
+
+
+{% block content %}
+
+
+<td valign="top"><table  width="780" height="670" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="15" height="25">&nbsp;</td>
+
+            <td width="20"><img src="/f_media/img/indeximages/index42112.jpg" width="18" height="25" alt="" /></td>
+            <td width="223">内容详情</td>
+            <td width="509" height="25"></td>
+            <td width="13" height="25"></td>
+          </tr>
+          <tr>
+            <td valign="top"><img src="/f_media/img/indeximages/index42116.jpg" width="15" height="191" alt="" /></td>
+            <td colspan="3" height="600" style="background:url(/f_media/img/indeximages/index42117.jpg); background-repeat:repeat-x;padding-top:10px;"  background="" valign="top">
+
+            <table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+
+      <tr>
+        <th>主题</th>
+        <th>内容</th>
+        <th>公司名称</th>
+        <th>公司地址</th>
+        <th>联系人</th>
+        <th>e-mail</th>
+      </tr>
+
+     {% for contact in contacts.object_list %}
+      <tr>
+        <td>{{ contact.sub }}</td>
+        <td>{{ contact.content }}</td>
+        <td>{{ contact.name }}</td>
+        <td>{{ contact.address }}</td>
+        <td>{{ contact.contact }}</td>
+        <td>{{ contact.email }}</td>
+      </tr>
+    {% endfor %}
+
+
+
+                  </table>
+{% for contact in contacts.object_list %}
+    {# Each "contact" is a Contact model object. #}
+    {{ contact.full_name|upper }}<br />
+{% endfor %}
+<div class="pagination" >
+    <span class="step-links">
+        {% if contacts.has_previous %}
+            <a href="?page={{ contacts.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ contacts.number }} of {{ contacts.paginator.num_pages }}.
+        </span>
+
+        {% if contacts.has_next %}
+            <a href="?page={{ contacts.next_page_number }}">next</a>
+        {% endif %}
+    </span>
+</div>
+      <li> 
+      <a href="/liuyan.html">返回留言</a> 
+  <div>备注:<i>更多信息请用管理员登录后台！</i></div>  
+            </td>
+
+
+
+            <td valign="top"><img src="/f_media/img/indeximages/index42118.jpg" width="13" height="191" alt="" /></td>
+          </tr>
+        </table>
+</td>
+
+
+
+{% endblock %}

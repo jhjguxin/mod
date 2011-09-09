@@ -1,0 +1,189 @@
+<frameset cols="25%,75%">
+<frame src="left_bar.html" noresize="noresize">
+
+
+
+</frameset>
+
+<table width="100%">    
+  <td width="30%"></td>
+  <td width="70%">
+        
+  </td>
+</table> 
+
+<!-- 内容部分文件--------------------------------------------------------------->
+<table width="996" border="0" align="center" cellpadding="0" cellspacing="0" >
+	<tr>
+	  <td valign="top" width="198"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr><td>
+	 <table  width="198" border="0" cellpadding="0" cellspacing="0">
+
+	<tr>
+		<td colspan="3">
+			<img src="indeximages/index411.gif" width="198" height="15" alt="" /></td>
+	</tr>
+	<tr>
+		<td rowspan="2">
+			<img src="indeximages/index412.gif" width="7" height="171" alt="" /></td>
+		<td>
+			<img src="indeximages/index413.jpg" width="179" height="49" alt="" /></td>
+
+		<td rowspan="2">
+			<img src="indeximages/index414.gif" width="12" height="171" alt="" /></td>
+	</tr>
+	<tr>
+		<td width="179" height="122" background="indeximages/index415.gif" style=" padding-left:15px;">
+<P><STRONG><FONT style="FONT-SIZE: 10.5pt">电话：<BR></FONT></STRONG><FONT style="COLOR: #ff0000; FONT-SIZE: 10.5pt"><STRONG>028-85480687<BR>028-85480687</STRONG></FONT></P>
+<P><STRONG><FONT style="FONT-SIZE: 10.5pt">E-MAIL:<BR><FONT style="COLOR: #ff0000; FONT-SIZE: 10.5pt">yiweng365@126.com</FONT></FONT></STRONG></P> 
+		</td>
+
+	</tr>
+	<tr>
+		<td colspan="3">
+			<img src="indeximages/index416.gif" width="198" height="21" alt="" /></td>
+	</tr>
+</table></td></tr>
+    <tr>
+		<td>
+			<img src="indeximages/index43.jpg" width="198" height="10" alt="" /></td>
+
+	</tr>
+	<tr>
+		<td>
+		<table width="198" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+		<table width="198" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+
+			<img src="indeximages/index4411.gif" width="30" height="27" alt="" /></td>
+		<td>
+			<a href="NewsClass.asp?BigClass=公司动态"><img src="indeximages/index4412.gif" width="66" height="27" alt="" /></a></td>
+		<td background="indeximages/index4413.gif" width="40" height="27">
+		</td>
+		<td>
+			<a href="NewsClass.asp?BigClass=公司动态"><img src="indeximages/index4414.gif" width="45" height="27" alt="" /></a></td>
+		<td background="indeximages/index4415.gif" width="17" height="27">
+		</td>
+
+	</tr>
+</table>
+        </td>
+	</tr>
+	<tr>
+		<td>
+			<img src="indeximages/index442.gif" width="198" height="94" alt="" /></td>
+	</tr>
+	<tr>
+
+		<td width="198" height="74" >
+
+                     <table width="100%" border="0" cellspacing="1" cellpadding="0">
+                          <tr align="center"> 
+                            <td><img src="Img/arrow_6.gif" width="11" height="11">                            </td>
+                            <td width="91%"> <div align="left" style="margin-bottom:4px;">                          	
+								
+<a href="shownews.asp?ID=108" target='_blank'>四川一翁教育服务管理有限公司</a>
+
+							
+                              </div></td>
+
+                         
+                          </tr> </table>
+  
+		</td>
+	</tr>
+</table>
+        </td>
+	</tr>
+	<tr>
+		<td>
+		<table width="198" border="0" cellpadding="0" cellspacing="0">
+
+	<tr>
+		<td>
+		<table width="198" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+			<img src="indeximages/index4411.gif" width="30" height="27" alt="" /></td>
+		<td>
+			<a href="NewsClass.asp?BigClass=招商加盟"><img src="indeximages/index44121.gif" width="66" height="27" alt="" /></a></td>
+		<td background="indeximages/index4413.gif" width="40" height="27">
+
+		</td>
+		<td>
+			<a href="NewsClass.asp?BigClass=招商加盟"><img src="indeximages/index4414.gif" width="45" height="27" alt="" /></a></td>
+		<td background="indeximages/index4415.gif" width="17" height="27">
+		</td>
+	</tr>
+</table>
+        </td>
+	</tr>
+
+	<tr>
+		<td width="198" height="114" >
+        <table width="100%" border="0" cellspacing="1" cellpadding="0">
+                          <tr> 
+                            <td width="7%" height="8"></td>
+                            <td colspan="2"></td>
+                          </tr>
+
+                          <tr align="center"> 
+                            <td><img src="Img/arrow_6.gif" width="11" height="11">                            </td>
+
+                            <td width="74%"> <div align="left" style="margin-bottom:4px;">                          									
+<a href="shownews.asp?ID=123" target='_blank'>加盟热线</a>
+
+                              </div></td>
+                         
+                          </tr>
+  
+                          <tr align="center"> 
+                            <td><img src="Img/arrow_6.gif" width="11" height="11">                            </td>
+                            <td width="74%"> <div align="left" style="margin-bottom:4px;">                          									
+
+<a href="shownews.asp?ID=122" target='_blank'>招商政策</a>
+
+                              </div></td>
+                         
+                          </tr>
+  
+                  </table>
+		</td>
+	</tr>
+</table>
+</td>
+	</tr>
+
+	<tr>
+		<td>
+		<table id="__01" width="198" height="126" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+			<img src="indeximages/index461.gif" width="13" height="33" alt="" /></td>
+		<td>
+			<img src="indeximages/index462.gif" width="69" height="33" alt="" /></td>
+		<td width="103" height="33" background="indeximages/index463.gif">
+
+		</td>
+		<td>
+			<img src="indeximages/index464.gif" width="13" height="33" alt="" /></td>
+	</tr>
+	<tr>
+		<td colspan="4" width="198" height="93" style="padding-left:8px;">
+  
+<div style="width:176px;  float:left; margin:5 1 0 2px;">                          	
+<a href="http://www.cnxuan.net">中宣信息</a></div>
+  
+
+<div style="width:176px;  float:left; margin:5 1 0 2px;">                          	
+<a href="http://www.yiweng365.com">四川一翁教育服务管理有限公司</a></div>
+
+		</td>
+	</tr>
+</table></td>
+	</tr>
+</table></td>
+

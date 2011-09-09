@@ -1,0 +1,153 @@
+UNKNOWN {
+	FONT-SIZE: 9pt; LINE-HEIGHT: 150%; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"
+}
+TABLE {
+	FONT-SIZE: 9pt; COLOR: #333333; LINE-HEIGHT: 150%; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"
+}
+Body {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-family: Verdana, Arial, "宋体";
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+}
+
+A.Link2:link {
+	FONT-SIZE: 9pt; COLOR: #006699; TEXT-DECORATION: none
+}
+A.Link2:visited {
+	FONT-SIZE: 9pt; COLOR: #006699; TEXT-DECORATION: none
+}
+A.Link2:hover {
+	FONT-SIZE: 9pt; COLOR: #006699; TEXT-DECORATION: none
+}
+A.Link3:link {
+	FONT-SIZE: 9pt; COLOR: #000000; TEXT-DECORATION: none
+}
+A.Link3:visited {
+	FONT-SIZE: 9pt; COLOR: #000000; TEXT-DECORATION: none
+}
+A.Link3:hover {
+	FONT-SIZE: 9pt; COLOR: #666666; TEXT-DECORATION: underline
+}
+A.Link2:link {
+	FONT-SIZE: 9pt; COLOR: #5e6a94; TEXT-DECORATION: none
+}
+A.Link2:visited {
+	FONT-SIZE: 9pt; COLOR: #5e6a94; TEXT-DECORATION: none
+}
+A.Link2:hover {
+	FONT-SIZE: 9pt; COLOR: #000000; TEXT-DECORATION: none
+}
+A.biglink:link {
+	FONT-SIZE: 10.5pt; COLOR: #000000; TEXT-DECORATION: none
+}
+A.biglink:visited {
+	FONT-SIZE: 10.5pt; COLOR: #000000; TEXT-DECORATION: none
+}
+A.biglink:hover {
+	FONT-SIZE: 10.5pt; COLOR: #5e6a94; TEXT-DECORATION: none
+}
+A.redLink:link {
+	FONT-SIZE: 9pt; COLOR: #ff6600; TEXT-DECORATION: underline
+}
+A.redLink:visited {
+	FONT-SIZE: 9pt; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.redLink:hover {
+	FONT-SIZE: 9pt; COLOR: #000000; TEXT-DECORATION: none
+}
+A.redLink:active {
+	FONT-SIZE: 9pt; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.redLink2:link {
+	FONT-SIZE: 9pt; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.redLink2:visited {
+	FONT-SIZE: 9pt; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.redLink2:hover {
+	FONT-SIZE: 9pt; COLOR: #000000; TEXT-DECORATION: none
+}
+A.redLink2:active {
+	FONT-SIZE: 9pt; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.redBoldLink:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.redBoldLink:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.redBoldLink:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #000000; TEXT-DECORATION: underline
+}
+.font2 {
+	FONT-SIZE: 9pt; COLOR: #ffffff; LINE-HEIGHT: 150%
+}
+.10font {
+	FONT-SIZE: 10.5pt; COLOR: #000000; LINE-HEIGHT: 150%
+}
+.12font {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #324352; LINE-HEIGHT: 150%
+}
+.10redFont {
+	FONT-SIZE: 10.5pt; COLOR: #ff6600; LINE-HEIGHT: 150%
+}
+.redFont {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #ff9900
+}
+FORM {
+	MARGIN: 0px
+}
+.input {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #cccccc 1px solid; COLOR: #000000; LINE-HEIGHT: 18px; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"; BACKGROUND-COLOR: #ffffff
+}
+SELECT {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"
+}
+.select {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #666666 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #666666 1px solid; COLOR: #000000; LINE-HEIGHT: 18px; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"; BACKGROUND-COLOR: #a7ecf5
+}
+.button {
+	BORDER-RIGHT: #665b8e 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 12px; BACKGROUND: #eeeeee; PADDING-BOTTOM: 1px; BORDER-LEFT: #ffffff 1px solid; WIDTH: 50px; CURSOR: hand; COLOR: #333333; PADDING-TOP: 1px; BORDER-BOTTOM: #665b8e 1px solid; FONT-FAMILY: "宋体"; HEIGHT: 18px
+}
+.position {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.leftBg {
+	BACKGROUND-POSITION: left top; BACKGROUND-IMAGE: url(images/LeftEndBg.png); BACKGROUND-REPEAT: repeat-x
+}
+.coolscrollbar {
+	FONT-SIZE: 12px; COLOR: #333333; LINE-HEIGHT: 20px; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+.kuang
+{
+	border: 1px solid #CCCCCC;
+}
+.cardNormal {
+	font-size: 12px;border: none;COLOR: #ffffff;
+}
+.cardSelected {
+	BACKGROUND: url(i_typeselected.gif);COLOR: #000000;font-size: 12px;font-weight:bold;border: none;
+}
+.gray-Normal{cursor:pointer;COLOR: #333333;}
+.gray-Selected{
+	COLOR: #666666;
+	font-size: 12px;
+	font-weight:bold;
+	border: none;
+	background-image: url(i_show_selectbg.gif);
+}
+.menu {
+	FONT-WEIGHT: bold;
+	FILTER: dropshadow(color=#333333,offx=1,offy=1,positive=1);
+	COLOR: #cc0000;
+	LINE-HEIGHT: normal;
+	font-size: 12px;
+}
+.line_h18 {
+	LINE-HEIGHT: 19px
+}

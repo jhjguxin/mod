@@ -1,0 +1,56 @@
+.SortFolderOpen {    
+	background-image: url(../images/Sort_Folder_Close.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	left: 16px;
+	padding-left: 16px;
+	cursor: hand;
+}
+.SortFolderClose {
+	background-image: url(../images/Sort_Folder_Open.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	left: 16px;
+	padding-left: 16px;
+	cursor: hand;
+}
+.SortEndFolderOpen {
+    
+	background-image: url(../images/SortEnd_Folder_Close.gif);	
+	background-repeat: no-repeat;
+	height: 16px;
+	left: 16px;
+	padding-left: 16px;
+	cursor: hand;
+}
+.SortEndFolderClose {
+	background-image: url(../images/SortEnd_Folder_Open.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	left: 16px;
+	padding-left: 16px;
+	cursor: hand;
+}
+.SortListline {
+	padding-left: 16px;
+	background-image: url(../images/Sort_Listline.gif);
+	background-repeat: repeat-y;
+}
+.SortEndListline {
+	padding-left: 16px;
+}
+.SortFile {
+	background-image: url(../images/Sort_File.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	cursor: hand;
+	padding-left: 16px;
+}
+.SortFileEnd {
+	background-image: url(../images/Sort_File_End.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	cursor: hand;
+	padding-left: 16px;
+}
+

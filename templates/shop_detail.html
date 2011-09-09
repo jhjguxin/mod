@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+{% block title %}门店展示{% endblock %}
+
+
+{% block content %}
+
+<td valign="top"><table  width="780" height="670" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="15" height="25">&nbsp;</td>
+
+            <td width="20"><img src="/f_media/img/indeximages/index42112.jpg" width="18" height="25" alt="" /></td>
+            <td width="223">门店详情</td>
+            <td width="509" height="25"></td>
+            <td width="13" height="25"></td>
+          </tr>
+          <tr>
+            <td valign="top"><img src="/f_media/img/indeximages/index42116.jpg" width="15" height="191" alt="" /></td>
+            <td colspan="3" height="600" style="background:url(/f_media/img/indeximages/index42117.jpg); background-repeat:repeat-x;padding-top:10px;"  background="" valign="top">
+
+            <table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+{% for contact in contacts.object_list %}
+                    <tr> 
+                      <td height="50" colspan="2" align="center" class="tit"><strong>{{ contact.name }}</strong></td>
+                    </tr>
+                    <tr> 
+                      
+                      <td width="79%" align="center" style="border-top: 1 solid #666666;border-bottom: 1 solid #666666">发布者：{{ contact.writer }} 
+                        发布时间：{{ contact.wdate }} 阅读：<font color="#FF0000">{{ contact.hoter }}</font>次 【字体：<A class=black href="javascript:fontZoom(16)">大</A> 
+                        <A class=black href="javascript:fontZoom(14)">中</A> <A class=black href="javascript:fontZoom(12)">小</A>】</td>
+
+                    </tr>
+                    <tr> 
+                      <td class=black id=fontzoom colspan="2"><br>
+                        <P align=center><IMG border=0 src="/{{ contact.img }}"></P>
+                        <p>{{ contact.notes }}</p>
+                        </td>
+                    </tr>
+
+
+
+{% endfor %}
+
+                    <tr align="right"> 
+                      <td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <td><p>&nbsp;</p>
+                              <p>
+                                </p>
+
+{% for contact in contacts.object_list %}
+    {# Each "contact" is a Contact model object. #}
+    {{ contact.full_name|upper }}<br />
+{% endfor %}
+<div class="pagination">
+    <span class="step-links">
+        {% if contacts.has_previous %}
+            <a href="?page={{ contacts.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ contacts.number }} of {{ contacts.paginator.num_pages }}.
+        </span>
+
+        {% if contacts.has_next %}
+            <a href="?page={{ contacts.next_page_number }}">next</a>
+        {% endif %}
+    </span>
+</div>                             
+                  
+
+                      </td>
+
+                        </table></td>
+                    </tr>
+                    <tr align="right"> 
+                      <td colspan="2">&nbsp;</td>
+                    </tr>
+					 <tr> 
+                
+              </tr>
+
+                  </table>
+            </td>
+
+            <td valign="top"><img src="/f_media/img/indeximages/index42118.jpg" width="13" height="191" alt="" /></td>
+          </tr>
+        </table>
+</td>
+
+
+
+{% endblock %}

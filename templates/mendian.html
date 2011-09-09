@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+
+{% block title %}门店展示{% endblock %}
+
+
+{% block content %}
+
+
+
+<td valign="top"><table  width="780" height="670" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="15" height="25">&nbsp;</td>
+            <td width="20"><img src="/f_media/img/indeximages/index42112.jpg" width="18" height="25" alt="" /></td>
+            <td width="223"><font color="#0099FF"><strong>门店展示</strong></font></td>
+
+            <td width="509" height="25"></td>
+            <td width="13" height="25"></td>
+          </tr>
+          <tr>
+            <td valign="top"><img src="/f_media/img/indeximages/index42116.jpg" width="15" height="191" alt="" /></td>
+            <td colspan="3" height="600" style="background:url(/f_media/img/indeximages/index42117.jpg); background-repeat:repeat-x; padding-top:15px;"  background="" valign="top">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    
+
+    {% for contact in contacts.object_list %}
+                    <tr> 
+                      <td width="4%" height="24" align="center" >&nbsp;</td>
+
+                      <td width="75%" height="110" style="BORDER-bottom: #999999 1px dotted"> 
+						<table width="90%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td width="30%"> <a href='shop/{{ contact.id }}/?page={{ contact.id }}'><img src='{{ contact.img }}' border=0 width=140 height=90 alt='门店展示'></a> </td>
+                            <td width="70%">                       
+						<a href="shop/{{ contact.id }}/?page={{ contact.id }}">{{ contact.name }}</a>
+</td>
+                          </tr>
+                        </table></td>
+                      <td width="29%" style="BORDER-bottom: #999999 1px dotted"><font color="#999999">{{ contact.wdate }}(点击<font color="#ff0000">{{ contact.hoter }}</font>) </font></td>
+                    </tr>
+                    
+                    
+    {% endfor %}
+                    
+                    
+
+<!--分页-------->                    
+                    <tr valign="bottom"> 
+                      <td height="50" colspan="3" align="center" >
+					  
+				        <div align="right">
+  
+				          
+{% for contact in contacts.object_list %}
+    {# Each "contact" is a Contact model object. #}
+    {{ contact.full_name|upper }}<br />
+{% endfor %}
+<div class="pagination">
+    <span class="step-links">
+        {% if contacts.has_previous %}
+            <a href="?page={{ contacts.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ contacts.number }} of {{ contacts.paginator.num_pages }}.
+        </span>
+
+        {% if contacts.has_next %}
+            <a href="?page={{ contacts.next_page_number }}">next</a>
+        {% endif %}
+    </span>
+</div>
+
+
+		                </div></td>
+                    </tr>
+                    
+                  </table>
+            </td>
+            <td valign="top"><img src="/f_media/img/indeximages/index42118.jpg" width="13" height="191" alt="" /></td>
+          </tr>
+        </table>
+</td>
+  </tr>
+
+</table>
+
+
+
+
+
+
+
+
+{% endblock %}

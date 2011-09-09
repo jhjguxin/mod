@@ -1,0 +1,140 @@
+{% extends "base.html" %}
+
+{% block title %}商品展示{% endblock %}
+
+
+{% block content %}
+
+
+
+<td valign="top"><table  width="780" height="670" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="15" height="25">&nbsp;</td>
+            <td width="20"><img src="/f_media/img/indeximages/index42112.jpg" width="18" height="25" alt="" /></td>
+
+            <td width="223"><font color="#0099FF"><strong>后勤服务</strong></font></td>
+            <td width="509" height="25"></td>
+            <td width="13" height="25"></td>
+          </tr>
+          <tr>
+            <td valign="top"><img src="/f_media/img/indeximages/index42116.jpg" width="15" height="191" alt="" /></td>
+            <td colspan="3" height="600" style="background:url(/f_media/img/indeximages/index42117.jpg); background-repeat:repeat-x;padding-top:15px;"  background="" valign="top">
+{% for contact in contacts.object_list %}            
+            <table width="90%" border="0" cellspacing="0" cellpadding="0">
+
+                    <TR> 
+                      <TD height=1 colspan="3" ></TD>
+                    </TR>
+                    <TR> 
+                      <TD height="237" colspan="3"> <table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+                          <tr> 
+                            <td height="21" colspan="3">&nbsp;</td>
+                          </tr>
+                          <tr> 
+                            
+                            <td width="44%" rowspan="3"><div align="center"><font color="#FF6600"></font><font color="#FF6600"></font> 
+                                
+                                <img style="BORDER-LEFT-COLOR: #cccccc; BORDER-BOTTOM-COLOR: #cccccc; BORDER-TOP-COLOR: #cccccc; BORDER-RIGHT-COLOR: #cccccc" src="/{{ contact.img }}" width="200" height="200"> 
+                                 
+                            <br>
+
+                                </div></td>
+                          </tr>
+                          <tr> 
+                         
+                            <td width="41%" height="40"><font color="#FF6600"><strong>商品展示</strong></font></td>
+                          </tr>
+
+                          <tr> 
+                        
+                            <td>
+                            <table width="100%" align="left">
+                              <tr> 
+                            <td width="22%" height="31"><div align="right">产品名称：</div></td>
+
+                            <td width="78%" height="40"><font color="#FF6600"><strong>{{ contact.name }}</strong></font></td>
+                          </tr>
+                          <tr> 
+                            <td height="29"><div align="right">产品备注：</div></td>
+                            <td height="40"><font color="#FF6600"><strong>商品展示</strong></font></td>
+                          </tr>
+                          <tr> 
+                            <td height="31"><div align="right">产品备注：</div></td>
+
+                            <td height="40"><font color="#FF6600"><strong>{{ contact.notes }}</strong></font></td>
+                          </tr>
+                          </table>
+                            
+                            
+                            </td>
+                          </tr>
+                          
+                          <tr> 
+                            <td height="9" colspan="2">&nbsp;</td>
+                          </tr>
+                      </table></TD>
+
+                    </TR>
+                    <TR> 
+                      <TD height="28" colspan="3" valign="bottom" >说明</TD>
+                    </TR>
+                    <TR> 
+                      <TD height="1" colspan="3"> <table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td>&nbsp;</td>
+                          </tr>
+
+                          <tr> 
+                            <td><p>
+                              <P align=center><IMG border=0 src="/{{ contact.img }}"></P>
+                            </p>
+                              <p>&nbsp; </p></td>
+                          </tr>
+                        </table></TD>
+                    </TR>
+                    <TR> 
+                      <TD 
+                  height=1 colspan="3" background="/f_media/img/img/naBialym.gif"><IMG height=1 src="img/1x1_pix.gif" 
+              width=10></TD>
+
+                    </TR>
+
+                    <TR> 
+                      <TD height=65 align="center">点击数：{{ contact.hoter }}&nbsp; 录入时间：{{ contact.wdate }}&nbsp;【<a href='javascript:window.print()'>打印此页</a>】&nbsp;【<a href="javascript:self.close()">关闭</a>】 【<a href='javascript:history.back()'>返回</a>】</TD>
+
+                      <TD 
+                  height=25>&nbsp;</TD>
+                    </TR>
+                  </table>
+            
+            </td>
+            <td valign="top"><img src="/f_media/img/indeximages/index42118.jpg" width="13" height="191" alt="" /></td>
+          </tr>
+        </table>
+{% endfor %}
+
+{% for contact in contacts.object_list %}
+    {# Each "contact" is a Contact model object. #}
+    {{ contact.full_name|upper }}<br />
+{% endfor %}
+<div class="pagination">
+    <span class="step-links">
+        {% if contacts.has_previous %}
+            <a href="?page={{ contacts.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ contacts.number }} of {{ contacts.paginator.num_pages }}.
+        </span>
+
+        {% if contacts.has_next %}
+            <a href="?page={{ contacts.next_page_number }}">next</a>
+        {% endif %}
+    </span>
+</div>
+
+</td>
+
+
+
+{% endblock %}
